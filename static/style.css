@@ -1,0 +1,60 @@
+body {
+    font-family: monospace;
+    background: #fdfdfd;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    width: 450px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #222;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.result-box {
+    background: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.metrics {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.metrics td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.link {
+    display: block;
+    margin-top: 20px;
+    color: #444;
+}

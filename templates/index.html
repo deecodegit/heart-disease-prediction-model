@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>heart disease predictor</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🫀 heart disease prediction</h1>
+        <p>enter patient details below</p>
+
+        <form action="/predict" method="post">
+
+            <div class="grid">
+                <input type="number" step="1" name="age" placeholder="age" required />
+                <input type="number" step="1" name="sex" placeholder="sex (1=male,0=female)" required />
+                <input type="number" step="1" name="cp" placeholder="chest pain type" required />
+                <input type="number" step="1" name="trestbps" placeholder="resting bp" required />
+                <input type="number" step="1" name="chol" placeholder="cholesterol" required />
+                <input type="number" step="1" name="fbs" placeholder="fasting blood sugar" required />
+                <input type="number" step="1" name="restecg" placeholder="restecg" required />
+                <input type="number" step="1" name="thalach" placeholder="max heart rate" required />
+                <input type="number" step="1" name="exang" placeholder="exercise angina" required />
+                <input type="number" step="0.1" name="oldpeak" placeholder="oldpeak" required />
+                <input type="number" step="1" name="slope" placeholder="slope" required />
+                <input type="number" step="1" name="ca" placeholder="ca score" required />
+                <input type="number" step="1" name="thal" placeholder="thal" required />
+            </div>
+
+            <button type="submit" class="btn">predict</button>
+        </form>
+
+        <a href="/dashboard" class="link">view model dashboard →</a>
+    </div>
+</body>
+</html>
