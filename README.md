@@ -1,7 +1,7 @@
 # ❤ Heart Disease Prediction Web App
 
 ## Project Overview
-This project predicts the risk of heart disease for a patient based on clinical features using machine learning. the main objective is to build an *end-to-end ml pipeline* that includes data preprocessing, model training, evaluation, and deployment as a *flask web app* with a user-friendly, pastel-themed interface.  
+This project predicts the risk of heart disease for a patient based on clinical features using machine learning. The main objective is to build an *end-to-end ml pipeline* that includes data preprocessing, model training, evaluation, and deployment as a flask web app.  
 
 The app provides:  
 - Real-time predictions for new patient data  
